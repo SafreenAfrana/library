@@ -1,0 +1,27 @@
+@media only screen and (min-width: 1030px) {
+    .studcard1 {
+        width: 420px;
+    }
+    .studcard2 {
+        width: 420px;
+        margin-left: 420px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width :900px) {
+    .studcard1 {
+        width: 350px;
+    }
+    .studcard2 {
+        width: 370px;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width :1028px) {
+    .studcard1 {
+        width: 500px;
+    }
+    .studcard2 {
+        width: 480px;
+    }
+}

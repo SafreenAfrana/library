@@ -1,0 +1,5 @@
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+    .heading1 {
+        margin-right: 60px;
+    }
+}

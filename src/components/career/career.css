@@ -1,0 +1,50 @@
+@media only screen and (min-width: 1030px) {
+    .cgcard1 {
+        width: 420px;
+        height: 40px;
+    }
+    .cgcard2 {
+        width: 420px;
+        margin-left: 420px;
+    }
+    .cgcard3 {
+        width: 300px;
+        margin-left: 30px;
+    }
+    .cgcard4 {
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width :900px) {
+    .cgcard1 {
+        width: 350px;
+    }
+    .cgcard2 {
+        width: 370px;
+    }
+    .cgcard3 {
+        width: 370px;
+    }
+    .cgcard4 {
+        width: 370px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width :1028px) {
+    .cgcard1 {
+        width: 500px;
+    }
+    .cgcard2 {
+        width: 470px;
+        margin-left: 20px;
+    }
+    .cgcard3 {
+        width: 500px;
+    }
+    .cgcard4 {
+        width: 500px;
+        margin-left: 20px;
+    }
+}
