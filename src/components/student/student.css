@@ -1,3 +1,12 @@
+.student {
+    background-image: url('student.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
 @media only screen and (min-width: 1030px) {
     .studcard1 {
         width: 420px;
@@ -11,17 +20,35 @@
 @media only screen and (min-width: 768px) and (max-width :900px) {
     .studcard1 {
         width: 350px;
+        margin-top: 20px;
     }
     .studcard2 {
         width: 370px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .stucard3 {
+        width: 780px;
     }
 }
 
 @media only screen and (min-width: 900px) and (max-width :1028px) {
     .studcard1 {
-        width: 500px;
+        width: 400px;
+        margin-top: 20px;
+        margin-left: 20px;
     }
     .studcard2 {
-        width: 480px;
+        width: 400px;
+        margin-left: 200px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width:330px) and (max-width:760px) {}
+
+@media only screen and (max-width: 1030px) {
+    .student {
+        height: 100%;
     }
 }

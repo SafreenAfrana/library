@@ -1,4 +1,19 @@
-@media only screen and (min-width: 768px) {
+.women {
+    background-image: url('women.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1030px) {
+    .women {
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 700px) {
     .cards {
         width: 700px;
     }

@@ -1,22 +1,21 @@
 import React, { Component } from 'react'
 import Header from '../header/header'
-import './about.css'
-
-class About extends Component {
+import './inspiration.css'
+class Inspiration extends Component {
     render() {
         return (
-            <div className="about">
+            <div className="inspiration">
                 <Header />
                 <div
-                className="heading" 
+                className="heading1" 
                 style={{
                     backgroundColor:"transparent",
                     border:"none",
-                    color:"white", 
+                    color:"white",
                     textAlign:"center"
                 }}>
                     <h1>
-                        About Us
+                        Inspiration
                     </h1>
                 </div>
             </div>
@@ -24,4 +23,4 @@ class About extends Component {
     }
 }
 
-export default About
+export default Inspiration

@@ -1,5 +1,8 @@
-@media only screen and (min-width: 300px) and (max-width: 700px) {
-    .heading {
-        margin-right: 100px;
-    }
+.about {
+    background-image: url('about.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
 }

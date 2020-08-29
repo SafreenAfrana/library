@@ -1,13 +1,19 @@
+.home {
+    background-image: url('home.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
 .roundbtn {
     width: 200px;
     border-radius: 60%;
     background: darkslategray;
     color: white;
+    margin: 50px 110px 88px 100px;
     font-size: 1.5em;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 30px;
-    margin-bottom: 40px;
     text-align: center;
     border: none;
     height: 200px;
@@ -20,7 +26,7 @@
     .roundbtn {
         width: 200px;
         height: 200px;
-        margin-left: 30px;
+        margin-left: 20px;
     }
 }
 
@@ -30,5 +36,24 @@
         height: 200px;
         margin-left: 20px;
         margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .roundbtn {
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (min-width:330px) and (max-width:760px) {
+    .roundbtn {
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (max-width:1030px) {
+    .home {
+        height: 100%;
+        width: 100%;
     }
 }
